@@ -13,8 +13,9 @@
 
 /*Index Top Styling*/
 #IndexTop {
-    background-image: url(/images/index);
+    background-image: url(../images/index_bg_2.jpg);
     background-size: cover;
+    background-position: center center;
 
     height: 20vw;
     border-bottom-style: solid;
@@ -31,3 +32,6 @@
 }
 
 /*Index Bottom Styling*/
+#IndexBottom {
+
+}
