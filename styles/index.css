@@ -1,0 +1,33 @@
+/*ToolBar Styling*/
+#ToolBar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+}
+
+.ToolBarItem {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+/*Index Top Styling*/
+#IndexTop {
+    background-image: url(/images/index);
+    background-size: cover;
+
+    height: 20vw;
+    border-bottom-style: solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#PageGreeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Index Bottom Styling*/
