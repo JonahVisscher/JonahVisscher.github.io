@@ -4,24 +4,25 @@ body {
     font-family: 'Calibri', 'Arial';
 }
 
-header {
-    display: flex;
-    justify-content:center;
-    align-items: center;
+/* Header Section */
 
+header {
     position: relative;
 
     background-color: rgb(48, 48, 48);
-    box-shadow: 0px 15px 15px -15px black;
-    
-    height: 7.5vh;
+    box-shadow: 0px 15px 15px -10px black;
     padding: 0px 10px 0px 10px;
 }
 
-.headerItem {
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
+header ul {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    list-style-type: none;
+    
+    gap: 40px;
+    margin: 0px 0px 0px 0px;
+    padding: 2.5vh 0 2.5vh 0;
 }
 
 .headerItem a {
@@ -30,12 +31,12 @@ header {
     font-weight: bold;
 }
 
+/* main Section */
+
 main {
     height: 100%;
     background-color: rgb(64, 64, 64);
 }
-
-/* Welcome Section */
 
 #welcome {
     display: flex;
@@ -43,7 +44,7 @@ main {
     align-items: center;
 
     padding-top: 1vh;
-    height: 30vh;
+    height: 35vh;
 
     background-image: url("../images/index_bg_2.jpg");
     background-position: center;
@@ -52,18 +53,29 @@ main {
     color: white;
 }
 
+#welcomeMessage {
+    text-align: center;
+}
+
 #welcome h1 {
     margin: 0px;
 
-    font-size: 56px;
+    font-size: 40px;
     font-weight: bold;
+    text-shadow: 3px 3px 2px black;
+}
+
+#welcome span {
+    padding-left: 1vh;
+    font-size: 20px;
 }
 
 #welcome p {
     margin: 0px;
 
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
+    text-shadow: 2px 2px 1px black;
 }
 
 /* Projects Sections */
@@ -76,7 +88,7 @@ main {
     position: relative;
 
     background-color: rgb(48, 48, 48);
-    box-shadow: 0px 15px 15px -15px black;
+    box-shadow: 0px -15px 15px -10px black;
     
     height: 7.5vh;
     padding: 0px 10px 0px 10px;
@@ -89,9 +101,16 @@ main {
 }
 
 @media (min-width: 500px) {
-    header {
-        justify-content:flex-end;
-    }
+    header ul { justify-content:flex-end; padding-right: 4vh; }
+    .headerItem { gap: 60px; }
+}
+
+@media (min-width: 700px) {
+    #welcome { padding-left: 10vh; justify-content:flex-start; }
+    #welcomeMessage { text-align: start; }
+    #welcome h1 { font-size: 72px; }
+    #welcome p { font-size: 24px; }
+    #welcome span { font-size: 35px; padding-left: 2vh; }
 }
 
 @media (min-width: 1500px) {
