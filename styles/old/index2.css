@@ -1,0 +1,60 @@
+body {
+    margin: 0%;
+}
+
+/*ToolBar Styling*/
+#ToolBar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+}
+
+#ToolBarItems {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#ToolBarLogo {
+    padding-left: 0.5vw;
+}
+
+.ToolBarItem {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+/*Index Top Styling*/
+#IndexTop {
+    background-image: url(../images/index_bg_2.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    height: 20vw;
+    border-bottom-style: solid;
+
+}
+
+#IndexInnerTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+#IndexInnerBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PageGreeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Index Bottom Styling*/
+#IndexBottom {
+
+}

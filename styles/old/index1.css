@@ -1,0 +1,13 @@
+.Center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    width: 30%;
+
+    text-align: center;
+    font-size: xxx-large;
+    font-family: "Stencil";
+    width: 30%;
+}
